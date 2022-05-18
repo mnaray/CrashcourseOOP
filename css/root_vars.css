@@ -1,0 +1,13 @@
+:root {
+    /* FONTS */
+    --serif: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap");
+    --sans-serif: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Ubuntu:wght@300&display=swap");
+    --code: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Roboto:wght@300;400&family=Ubuntu:wght@300&display=swap");
+
+    /* COLORS */
+    --darkest: rgb(160, 16, 255);
+    --dark: rgb(100, 67, 224);
+    --medium: rgb(73, 105, 245);
+    --bright: rgb(67, 156, 224);
+    --brightest: rgb(112, 247, 255);
+}
