@@ -102,4 +102,5 @@ body {
 .footer-link,
 .link-box {
     height: 100%;
+    line-height: 2.5rem;
 }
