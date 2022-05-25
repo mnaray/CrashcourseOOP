@@ -12,10 +12,12 @@
         <link rel="stylesheet" href="/css/debugging-colors.css" />
         <link rel="stylesheet" href="/css/global.css" />
     </head>
-    <div class="master-container">
-        <body>
+    <body>
+        <div class="master-container">
             <header class="header-container">
-                <div class="logo"><a href="/index.html">LOGO</a></div>
+                <a href="/index.html" class="logo"
+                    ><object data="/bilder/terminal_icon.svg"></object
+                ></a>
                 <nav class="navbar">
                     <ul class="nav-list">
                         <li class="nav-items">
@@ -65,15 +67,17 @@
                         vel dolores cupiditate beatae itaque commodi magnam!
                     </p>
                 </div>
-                <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/9YffrCViTVk"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                ></iframe>
+                <div class="video-container">
+                    <h2 class="video-titel">[Video Titel hier]</h2>
+                    <iframe
+                        src="https://www.youtube.com/embed/9YffrCViTVk"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        class="video"
+                    ></iframe>
+                </div>
             </main>
             <footer class="footer-container">
                 <ul class="footer-list">
@@ -97,6 +101,6 @@
                     </li>
                 </ul>
             </footer>
-        </body>
-    </div>
+        </div>
+    </body>
 </html>
