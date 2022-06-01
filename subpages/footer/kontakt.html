@@ -60,17 +60,28 @@
                     <form
                         action="https://formspree.io/f/mqknnjpe"
                         method="POST"
+                        class="form-container"
+                        id="form"
                     >
-                        <label>
+                        <label class="label-container">
                             Ihre Email:
-                            <input type="email" name="email" />
+                            <input
+                                type="email"
+                                name="email"
+                                class="input-container"
+                            />
                         </label>
-                        <label>
+                        <label class="label-container">
                             Ihre Nachricht:
-                            <textarea name="message"></textarea>
+                            <textarea
+                                name="message"
+                                class="input-container"
+                            ></textarea>
                         </label>
                         <!-- your other form fields go here -->
-                        <button type="submit">Absenden</button>
+                        <button type="submit" class="absend-button">
+                            Absenden
+                        </button>
                     </form>
                 </div>
             </main>

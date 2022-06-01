@@ -62,6 +62,33 @@ body {
     margin-bottom: 1.2rem;
 }
 
+.form-container {
+    width: auto;
+    max-width: 45rem;
+
+    /* height: 40rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.label-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    margin-top: 0.3rem;
+}
+
+.absend-button {
+    height: 1.75rem;
+    max-width: 6rem;
+}
+
 .video-container {
     display: flex;
     flex-direction: column;
