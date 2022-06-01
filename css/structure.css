@@ -2,6 +2,11 @@ body {
     height: auto;
 }
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 .master-container {
     /* Might have to remove height if bugged!!! */
     height: 100%;
