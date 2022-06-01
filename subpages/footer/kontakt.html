@@ -1,0 +1,115 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kontakt</title>
+        <link rel="stylesheet" href="/css/root_vars.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/animations.css" />
+        <link rel="stylesheet" href="/css/structure.css" />
+        <link rel="stylesheet" href="/css/media_queries.css" />
+        <link rel="stylesheet" href="/css/debugging-colors.css" />
+        <link rel="stylesheet" href="/css/global.css" />
+    </head>
+    <body>
+        <div class="master-container">
+            <header class="header-container">
+                <a href="/index.html" class="logo"
+                    ><object data="/bilder/terminal_icon.svg"></object
+                ></a>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-items">
+                            <a href="/index.html" class="header-link">
+                                <div class="link-box">HOME</div>
+                            </a>
+                        </li>
+                        <!-- BEI DEN UNTEREN PUNKTEN KOMMEN EVENTUELL NOCH DROPDOWNLISTEN -->
+                        <li class="nav-items">
+                            <a
+                                href="/subpages/themen/overview_themen.html"
+                                class="header-link"
+                            >
+                                <div class="link-box">THEMEN</div>
+                            </a>
+                        </li>
+                        <li class="nav-items">
+                            <a
+                                href="/subpages/projektideen/overview_projektideeen.html"
+                                class="header-link"
+                            >
+                                <div class="link-box">PROJEKTIDEEN</div>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-items ueber-uns">UEBER UNS</li> -->
+                    </ul>
+                </nav>
+            </header>
+            <main class="main-container">
+                <h1 class="titel-container">Kontaktformular</h1>
+                <div class="text-container">
+                    <p class="text-paragraph">
+                        Lassen Sie uns wissen, wie Ihre Erfahrung auf unserer
+                        Seite war. Wir freuen uns über konstruktives Feedback!
+                        <br />
+                        Füllen Sie das untere Kontaktformular aus und drücken
+                        Sie auf "Absenden" um Ihr Formular automatisch
+                        einzureichen.
+                    </p>
+                    <form
+                        action="https://formspree.io/f/mqknnjpe"
+                        method="POST"
+                    >
+                        <label>
+                            Ihre Email:
+                            <input type="email" name="email" />
+                        </label>
+                        <label>
+                            Ihre Nachricht:
+                            <textarea name="message"></textarea>
+                        </label>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Absenden</button>
+                    </form>
+                </div>
+            </main>
+            <footer class="footer-container">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/impressum.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">COPYRIGHT UND IMPRESSUM</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/kontakt.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">KONTAKT</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="https://github.com/mnaray/CrashcourseOOP"
+                            class="footer-link"
+                        >
+                            <div class="link-box">PROJEKT AUF GITHUB</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/socials.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">SOCIALS</div>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
