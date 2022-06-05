@@ -15,3 +15,6 @@ https://www.youtube.com/watch?v=h4hY2hho73Q
 
 while loops - video:
 https://www.youtube.com/watch?v=EyghyKO4BlA
+
+code embed maker:
+https://carbon.now.sh/
