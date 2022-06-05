@@ -1,0 +1,206 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Loops</title>
+        <link rel="stylesheet" href="/css/root_vars.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/animations.css" />
+        <link rel="stylesheet" href="/css/structure.css" />
+        <link rel="stylesheet" href="/css/media_queries.css" />
+        <link rel="stylesheet" href="/css/debugging-colors.css" />
+        <link rel="stylesheet" href="/css/global.css" />
+    </head>
+    <body>
+        <div class="master-container">
+            <header class="header-container">
+                <a href="/index.html" class="logo"
+                    ><object data="/bilder/terminal_icon.svg"></object
+                ></a>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-items">
+                            <a href="/index.html" class="header-link">
+                                <div class="link-box">HOME</div>
+                            </a>
+                        </li>
+                        <!-- BEI DEN UNTEREN PUNKTEN KOMMEN EVENTUELL NOCH DROPDOWNLISTEN -->
+                        <li class="nav-items">
+                            <a
+                                href="/subpages/themen/overview_themen.html"
+                                class="header-link"
+                            >
+                                <div class="link-box">THEMEN</div>
+                            </a>
+                        </li>
+                        <li class="nav-items">
+                            <a
+                                href="/subpages/projektideen/overview_projektideeen.html"
+                                class="header-link"
+                            >
+                                <div class="link-box">PROJEKTIDEEN</div>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-items ueber-uns">UEBER UNS</li> -->
+                    </ul>
+                </nav>
+            </header>
+            <main class="main-container">
+                <h1 class="titel-container">Loops</h1>
+                <div class="text-container">
+                    <h3 class="text-untertitel">Was sind Loops?</h3>
+                    <p class="text-paragraph">
+                        Die deutsche Übersetzung für Loop ist Schleife. Was
+                        macht denn eine Schleife? Sie geht rings herum. Im
+                        Programmieren ist das ähnlich, wenn man eine Loop als
+                        Prozessablaufplan darstellt, sieht sie sehr ähnlich aus,
+                        wie eine Schleife in einer Schnur.
+                    </p>
+                    <img
+                        src="/bilder/schleifen-pap-screen.jpg"
+                        alt="In diesem Bild ist eine Beispielabbildung zu Schleifen."
+                        class="loop-image text-image"
+                    />
+                    <p class="text-paragraph">
+                        Im Code könnte es dann so ähnlich aussehen. (Hier in C#)
+                    </p>
+                    <!-- Embed für While-Schleife -->
+                    <iframe
+                        src="https://carbon.now.sh/embed/EcZMqwztQ9WNa7Oia86X"
+                        style="
+                            width: 201px;
+                            height: 360px;
+                            border: 0;
+                            transform: scale(1);
+                            overflow: hidden;
+                        "
+                        sandbox="allow-scripts allow-same-origin"
+                        class="text-paragraph"
+                    >
+                    </iframe>
+                    <p class="text-paragraph">
+                        Man unterscheidet hauptsächlich zwischen zwei Arten von
+                        Loops, die While-Loop und die For-Loop. <br />
+                        <br />
+                        Die While-Loop war schon im obigen Beispiel zu erkennen.
+                        Nun schauen wir uns die For-Loop ein wenig genauer an.
+                    </p>
+                    <!-- Embed für For-Schleife -->
+                    <iframe
+                        src="https://carbon.now.sh/embed/W5InS0caNvHrkXSbvC4y"
+                        style="
+                            width: 282px;
+                            height: 433px;
+                            border: 0;
+                            transform: scale(1);
+                            overflow: hidden;
+                        "
+                        sandbox="allow-scripts allow-same-origin"
+                        class="text-paragraph"
+                    >
+                    </iframe>
+                    <p class="text-paragraph">
+                        Wenn man die beiden vergleicht, erkennt man, dass die
+                        While-Loop sich wiederholt, bis das Argument falsch ist.
+                        <br />
+                        <br />
+                        Im Gegensatz zu dieser wiederholt sich die For-Loop nur
+                        so oft, wie noch vor dem Ausführen der Schleife
+                        angegeben.
+                    </p>
+
+                    <h3 class="text-untertitel">
+                        Was kann man mit Loops machen?
+                    </h3>
+                    <p class="text-paragraph">
+                        Mit Loops kann man recht vieles machen. Fast alle
+                        Programme enthalten Loops, da sie einfach so praktisch
+                        sind. Man kann bestimmen, wie oft oder bis wann sie sich
+                        wiederholen sollen, dies nimmt dem Menschen sehr viel
+                        Arbeit ab.
+                        <br />
+                        <br />
+                        Zum Beispiel sind Uhren praktisch nur Loops. Es werden
+                        pro 60-mal Minuten Hochzählen, je eine Stunde
+                        hochgezählt. Das Ganze erstreckt sich dann noch weiter
+                        in die Sekunden und so weiter.
+                        <br />
+                        <br />
+                        Eine Failsafe-Funktion bei einem User-Input kann auch in
+                        Form von einer Schleife programmiert werden. Wenn die
+                        While-Loop immer überprüft, ob der Input leer ist oder
+                        nicht, kann man keinen leeren Input geben. Der
+                        Inputprozess würde sich nochmal wiederholen.
+                    </p>
+                    <p class="text-paragraph">
+                        Unten sind noch zwei Videos eingebettet. Zu der
+                        While-Loop und zu der For-Loop je eines.
+                    </p>
+                </div>
+                <div class="video-container">
+                    <h2 class="video-titel">C# while loops</h2>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/EyghyKO4BlA"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        class="video"
+                    ></iframe>
+                </div>
+                <div class="video-container">
+                    <h2 class="video-titel">C# for loops</h2>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/h4hY2hho73Q"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        class="video"
+                    ></iframe>
+                </div>
+            </main>
+            <footer class="footer-container">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/impressum.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">COPYRIGHT UND IMPRESSUM</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/kontakt.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">KONTAKT</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="https://github.com/mnaray/CrashcourseOOP"
+                            class="footer-link"
+                        >
+                            <div class="link-box">PROJEKT AUF GITHUB</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/socials.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">SOCIALS</div>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
