@@ -67,6 +67,12 @@ hr {
     margin-bottom: 1.2rem;
 }
 
+/* .overview-list-item {
+    margin-bottom: 3rem;
+} */
+
+/* !!!Nur aktivieren, falls hr-Tags bei overview weggelassen werden!!! */
+
 .text-image {
     max-width: 30rem;
     margin-bottom: 1rem;
