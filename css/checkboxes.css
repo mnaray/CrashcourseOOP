@@ -1,0 +1,11 @@
+.overview-container input {
+    width: 1rem;
+}
+
+.overview-container p {
+    display: none;
+}
+
+#arrays-checkbox:checked #arrays-text {
+    display: block;
+}
