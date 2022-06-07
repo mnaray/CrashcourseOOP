@@ -9,9 +9,23 @@
     background-color: var(--medium);
 }
 
-/* .logo object {
-    fill: green;
-} */
+.form-container {
+    border: 0.2rem solid var(--dark);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: var(--dimmed);
+}
+
+.input-container {
+    background-color: var(--bright);
+    border: none;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.absend-button {
+    border: none;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    background-color: var(--darkest);
+}
 
 .nav-items,
 .footer-item {
