@@ -9,6 +9,10 @@
     background-color: var(--medium);
 }
 
+.logo {
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
 .form-container {
     border: 0.2rem solid var(--dark);
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
