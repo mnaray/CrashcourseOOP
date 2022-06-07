@@ -8,6 +8,8 @@
     --darkest: rgb(160, 16, 255);
     --dark: rgb(100, 67, 224);
     --medium: rgb(73, 105, 245);
-    --bright: rgb(67, 156, 224);
-    --brightest: rgb(112, 247, 255);
+    --bright: rgb(112, 247, 255);
+    --brightest: rgb(174, 251, 255);
+    --dimmed: rgb(0, 0, 0, 0.2);
+    --exclamation: rgb(255, 36, 36);
 }

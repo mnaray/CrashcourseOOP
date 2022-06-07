@@ -78,8 +78,11 @@
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-/* Fade beige */
-.hvr-fade-beige {
+/* ------------- USED IN THIS PROJECT -------------- */
+
+/* Fade BRIGHT*/
+.nav-items,
+.footer-item {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -91,15 +94,18 @@
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
 }
-.hvr-fade-beige:hover,
-.hvr-fade-beige:focus,
-.hvr-fade-beige:active {
-    background-color: var(--darker-beige);
+.nav-items:hover,
+.footer-item:hover,
+.nav-items:focus,
+.footer-item:focus,
+.nav-items:active,
+.footer-item:active {
+    background-color: var(--bright);
     color: white;
 }
 
-/* Fade brown */
-.hvr-fade-brown {
+/* Fade RED */
+.hvr-fade-red {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -111,9 +117,9 @@
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
 }
-.hvr-fade-brown:hover,
-.hvr-fade-brown:focus,
-.hvr-fade-brown:active {
-    background-color: var(--darker-brown);
+.hvr-fade-red:hover,
+.hvr-fade-red:focus,
+.hvr-fade-red:active {
+    background-color: var(--exclamation);
     color: white;
 }

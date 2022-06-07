@@ -1,0 +1,42 @@
+.master-container {
+    background-color: var(--brightest);
+}
+
+.header-container {
+    border: 0.2rem solid var(--dark);
+    border-top: none;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    background-color: var(--medium);
+}
+
+.form-container {
+    border: 0.2rem solid var(--dark);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: var(--dimmed);
+}
+
+.input-container {
+    background-color: var(--bright);
+    border: none;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.absend-button {
+    border: none;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    background-color: var(--darkest);
+}
+
+.nav-items,
+.footer-item {
+    border: 0.2rem solid var(--dark);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: var(--darkest);
+}
+
+.footer-list {
+    border: 0.2rem solid var(--dark);
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    background-color: var(--medium);
+}
