@@ -1,0 +1,28 @@
+.master-container {
+    background-color: var(--brightest);
+}
+
+.header-container {
+    border: 0.2rem solid var(--dark);
+    border-top: none;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    background-color: var(--medium);
+}
+
+/* .logo object {
+    fill: green;
+} */
+
+.nav-items,
+.footer-item {
+    border: 0.2rem solid var(--dark);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: var(--darkest);
+}
+
+.footer-list {
+    border: 0.2rem solid var(--dark);
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    background-color: var(--medium);
+}
