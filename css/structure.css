@@ -50,6 +50,7 @@ hr {
     width: auto;
     margin-top: 0.3rem;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .main-container {
@@ -72,6 +73,7 @@ hr {
 }
 
 .text-paragraph {
+    max-width: 24rem;
     margin-bottom: 1.2rem;
 }
 
