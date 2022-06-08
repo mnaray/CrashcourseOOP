@@ -1,0 +1,141 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ENTER_TITLE_HERE!!!</title>
+        <link rel="stylesheet" href="/css/root_vars.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/animations.css" />
+        <link rel="stylesheet" href="/css/structure.css" />
+        <link rel="stylesheet" href="/css/media_queries.css" />
+        <link rel="stylesheet" href="/css/debugging-colors.css" />
+        <link rel="stylesheet" href="/css/global.css" />
+    </head>
+    <body>
+        <div class="master-container">
+            <header class="header-container">
+                <a href="/index.html" class="logo"
+                    ><object data="/bilder/terminal_icon.svg"></object
+                ></a>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-items">
+                            <a href="/index.html" class="header-link">
+                                <div class="link-box">HOME</div>
+                            </a>
+                        </li>
+                        <!-- BEI DEN UNTEREN PUNKTEN KOMMEN EVENTUELL NOCH DROPDOWNLISTEN -->
+                        <li class="nav-items">
+                            <a
+                                href="/subpages/themen/overview_themen.html"
+                                class="header-link"
+                            >
+                                <div class="link-box">THEMEN</div>
+                            </a>
+                        </li>
+                        <li class="nav-items">
+                            <a
+                                href="/subpages/projektideen/overview_projektideeen.html"
+                                class="header-link"
+                            >
+                                <div class="link-box">PROJEKTIDEEN</div>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-items ueber-uns">UEBER UNS</li> -->
+                    </ul>
+                </nav>
+            </header>
+            <main class="main-container">
+                <h1 class="titel-container">TITEL</h1>
+                <div class="text-container">
+                    <h3 class="text-untertitel">Was sind Arrays?</h3>
+                    <p class="text-paragraph">
+                        Ein Array ist eine Reihe von Elementen, die denselben Datentyp haben. Man kann es sich wie ein Schrank vorstellen, welcher jedoch unzählige Schubladen hat. In unserem Beispiel gehen wir mal von einer fixen Anzahl an Schubladen aus. Wir möchten ein Array kreieren, welches aus acht Schubladen besteht. Während wir im Alltag mit der Zahl eins anfangen, wenn wir etwas zählen möchten, beginnen wir in der Programmierung mit 0. Die Stellen werden auch Index genannt. Wenn wir also in der Programmierung vom Index 0 reden, so meinen wir die erste Stelle. Wenn wir vom Index 4 reden, so meinen wir wiederum die fünfte Stelle.
+
+									
+                        0                 1                 2                3                4                5             6                7                  8             
+                  
+                    </p>
+                    <h3 class="text-untertitel">
+                        Was kann man mit Arrays machen?
+                    </h3>
+                    <p class="text-paragraph">
+                        Ein Array kann von allen Datentypen sein, muss sich aber für einen entscheiden. Wir möchten eine Sammlung an Zahlen erstellen, demnach ist unser Array vom Datentyp int. In den eckigen Klammern von new int[8], können wir eine fixe Anzahl an Stellen festlegen. 
+                        <img
+                        src="/bilder/carbon.png" width="100px" height="50"
+                        alt="In diesem Bild ist eine Beispielabbildung zu Schleifen."
+                        class="loop-image text-image"
+                    />
+
+                        Das hinzufügen von Werten in ein Array gestaltet sich sehr simpel. Wir weisen einen Wert einer bestimmten Stelle im Array zu. Möchten wir also den Wert 10 in die Stelle 3 packen, so müssen wir den Namen des Arrays aufrufen und in eckige Klammern die dritte Stelle angeben. Wir erinnern uns, in der Programmierung beginnt die Indexierung bei 0, also ist die dritte Stelle beim Index 2. Anschliessend weisen wir der dritten Stelle per Gleichheitszeichen den Wert zu.
+                        zahlen[2] = 10;
+
+                        Auch kann man den Wert aus einer Stelle in einer Variablen speichern
+                        int Zahl1 = zahlen[0];
+
+                        Um mehrere Werte gleichzeitig in ein Array zu speichern, gibt es zwei Varianten. Die erste eignet sich vor allem dann, wenn wir schon wissen, welche Werte genau gespeichert werden soll und es sich um eine überschaubare Menge handelt. Dafür übergeben wir dem Array die Werte, abgetrennt mit Kommas, in geschweiften Klammern. Das Array erstellt automatisch so viele Indexe, wie Werte übergeben wurden. Die Werte werden auch in der Reihenfolge indexiert.
+                        int[] zahlen = {1,2,3,4,5,6,7,8};
+
+
+
+                        Die zweite Möglichkeit brauchen wird am häufigsten, nämlich dann, wenn wir noch nicht so genau wissen, welche Werte übergeben werden und wie viele. Um Werte zu übergeben, benötigen wir eine for-Schleife. Dafür kreieren wir wie gewohnt eine Variable namens i und des Datentyps int mit dem Wert 0. Auch die zyklische Werte Erhöhung bleibt gleich, nur die Bedingung ist etwas verändert. Die for-Schleife wird nämlich nur so oft durchlaufen, wie Stellen im Array vorhanden sind. Die Anzahl an Arraystellen ermitteln wir mit zahlen.Length. Nun soll in jedem Durchlauf ein Wert in eine bestimmte Stelle des Arrays geschrieben werden. Da wir bei der Variable i mit dem Wert 0 beginnen, könne wir sie gleich als Indexangabe für das Array benutzen. Da sie nach jedem Durchlauf um eins erhöht wird, springt die Zuweisung für den Index ebenfalls um eins nach oben.
+                        int[] zahlen = new int[8];
+                        for(int i = 0; i < zahlen.Length; i++)
+                        {
+                            zahlen[i] = i + 1;
+                        }
+
+                    </p>
+                </div>
+                <div class="video-container">
+                    <h2 class="video-titel">[Video Titel hier]</h2>
+                    <iframe
+                        src="https://www.youtube.com/watch?v=MXsFBBN4OXk&t=154s"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        class="video"
+                    ></iframe>
+                </div>
+            </main>
+            <footer class="footer-container">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/impressum.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">COPYRIGHT UND IMPRESSUM</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/kontakt.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">KONTAKT</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="https://github.com/mnaray/CrashcourseOOP"
+                            class="footer-link"
+                        >
+                            <div class="link-box">PROJEKT AUF GITHUB</div>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            href="/subpages/footer/socials.html"
+                            class="footer-link"
+                        >
+                            <div class="link-box">SOCIALS</div>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>

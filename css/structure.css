@@ -50,6 +50,7 @@ hr {
     width: auto;
     margin-top: 0.3rem;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .main-container {
@@ -57,6 +58,15 @@ hr {
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 2rem;
+}
+
+.main-container-Title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.main-container-box2{
+    
 }
 
 .text-container {
@@ -72,6 +82,7 @@ hr {
 }
 
 .text-paragraph {
+    max-width: 24rem;
     margin-bottom: 1.2rem;
 }
 

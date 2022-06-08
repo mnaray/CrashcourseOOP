@@ -1,3 +1,9 @@
+hr {
+    border: none;
+    height: 0.07rem;
+    background-color: var(--bright);
+}
+
 .master-container {
     background-color: var(--brightest);
 }
