@@ -1,5 +1,4 @@
 body {
-    min-height: 100%;
     height: auto;
 }
 
@@ -10,6 +9,7 @@ hr {
 
 .master-container {
     /* Might have to remove height if bugged!!! */
+    min-height: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
