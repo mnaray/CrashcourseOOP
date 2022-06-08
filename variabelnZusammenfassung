@@ -1,0 +1,16 @@
+Variablen
+Variablen werden zum vorübergehenden Speichern von Daten verwendet, die sich während der Ausführung der Anwendung ändern können. Sie können auch Objekte oder andere Anwendungen wie TextBox oder Object enthalten.
+Eine Variable hat einen Namen, der sich auf die darin gespeicherten Daten bezieht, und einen Datentyp, der die Art der Informationen bestimmt, die gespeichert werden können.
+//
+Deklaration von Variablen
+Eine Variable muss deklariert werden, bevor sie verwendet werden kann. In einigen Programmiersprachen werden implizite Deklarationen verwendet, wenn Variablen automatisch erstellt werden.
+//
+Regeln
+In vielen Programmiersprachen folgen Variablennamen diesen Regeln:
+•	Sie beginnen mit einem Buchstaben
+•	Sie können bis zu 255 Zeichen lang sein
+•	Sie dürfen keine Punkte oder Typenbezeichnungen enthalten
+•	Sie müssen innerhalb eines Bereichs eindeutig sein
+
+
+- Denis J.
