@@ -5,11 +5,12 @@
     --code: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Roboto:wght@300;400&family=Ubuntu:wght@300&display=swap");
 
     /* COLORS */
-    --darkest: rgb(160, 16, 255);
-    --dark: rgb(100, 67, 224);
+    --darkest: rgb(123, 146, 246);
+    --dark: rgb(131, 107, 220);
     --medium: rgb(73, 105, 245);
     --bright: rgb(0, 192, 202);
     --brightest: rgb(174, 251, 255);
+    --white: rgb(255, 255, 255);
     --dimmed: rgb(0, 0, 0, 0.2);
     --exclamation: rgb(255, 36, 36);
 }
