@@ -5,14 +5,14 @@ hr {
 }
 
 .master-container {
-    background-color: var(--brightest);
+    background-color: var(--white);
 }
 
 .header-container {
     border: 0.2rem solid var(--dark);
     border-top: none;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
-    background-color: var(--medium);
+    background-color: var(--darkest);
 }
 
 .logo {
@@ -41,12 +41,12 @@ hr {
 .footer-item {
     border: 0.2rem solid var(--dark);
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-    background-color: var(--darkest);
+    background-color: var(--dark);
 }
 
 .footer-list {
     border: 0.2rem solid var(--dark);
     border-bottom: none;
     border-radius: 0.5rem 0.5rem 0rem 0rem;
-    background-color: var(--medium);
+    background-color: var(--darkest);
 }

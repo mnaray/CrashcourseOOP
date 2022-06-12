@@ -99,6 +99,7 @@
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
+
 /* Fade BRIGHT*/
 .nav-items,
 .footer-item {
@@ -119,7 +120,7 @@
 .footer-item:focus,
 .nav-items:active,
 .footer-item:active {
-    background-color: var(--bright);
+    background-color: var(--brightest);
     color: white;
 }
 
