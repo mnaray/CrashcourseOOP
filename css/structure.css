@@ -65,6 +65,13 @@ hr {
     margin-bottom: 0.5rem;
 }
 
+.thema-container {
+    box-sizing: border-box;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 .text-container {
     display: flex;
     flex-direction: column;

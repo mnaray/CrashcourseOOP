@@ -70,7 +70,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--bright);
+    background: var(--brightest);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -99,6 +99,7 @@
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
+
 /* Fade BRIGHT*/
 .nav-items,
 .footer-item {
@@ -119,7 +120,7 @@
 .footer-item:focus,
 .nav-items:active,
 .footer-item:active {
-    background-color: var(--bright);
+    background-color: var(--brightest);
     color: white;
 }
 
@@ -141,4 +142,23 @@
 .hvr-fade-red:active {
     background-color: var(--exclamation);
     color: white;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    /* box-shadow: 0 0 1px rgba(0, 0, 0, 0); */
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
