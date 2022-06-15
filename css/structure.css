@@ -23,6 +23,14 @@ hr {
     padding-bottom: 0rem;
 }
 
+#index-background {
+    background-image: url("/bilder/hintergrundbildcss.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .header-container {
     box-sizing: border-box;
     display: flex;
@@ -65,6 +73,34 @@ hr {
 .main-container-title {
     text-align: center;
     margin-bottom: 0.5rem;
+}
+
+.main-container-box1,
+.main-container-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-container-box1 {
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+.main-container-box2 {
+    box-sizing: border-box;
+    padding-left: 3rem;
+}
+.dimmed {
+    background-color: var(--dimmed);
+    padding: 1rem;
+}
+
+.h {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3px;
+    background-color: var(--darkest);
 }
 
 .thema-container {
