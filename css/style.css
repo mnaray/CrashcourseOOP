@@ -70,3 +70,7 @@ h3 {
     border: 0.2rem solid var(--dark);
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
+
+.loading svg {
+    fill: var(--white);
+}
