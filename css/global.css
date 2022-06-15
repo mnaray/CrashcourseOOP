@@ -19,7 +19,6 @@ ul {
     list-style: none;
 }
 
-body {
-    /* background-color: white; */
-    /* font-size: 62.5%; */
+.dotted-items li {
+    list-style: circle;
 }
