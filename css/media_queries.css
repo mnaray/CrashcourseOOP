@@ -12,10 +12,10 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
-}
 
-@media screen and (min-width: 400px) {
-    .text-paragraph {
-        text-align: justify;
+    .main-container {}
+
+    .footer-container {
+        
     }
 }
