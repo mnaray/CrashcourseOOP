@@ -222,13 +222,12 @@ hr {
 .loading {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
 
 .loading svg {
-    height: 3rem;
-    width: 5rem;
-    overflow: hidden;
+    height: auto;
+    width: auto;
 }

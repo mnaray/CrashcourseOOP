@@ -72,5 +72,5 @@ h3 {
 }
 
 .loading svg {
-    fill: var(--bright);
+    fill: var(--white);
 }

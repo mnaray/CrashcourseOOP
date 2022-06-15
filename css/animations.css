@@ -162,3 +162,71 @@
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+
+#empty {
+    animation: loading-color-transition 4s infinite 0s;
+}
+
+#top {
+    animation: loading-color-transition 4s infinite 1s;
+}
+
+#bottom {
+    animation: loading-color-transition 4s infinite 2s;
+}
+
+#full {
+    animation: loading-color-transition-spin-out 4s infinite 3s;
+}
+
+/* loading animation */
+@keyframes loading-animation-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading-color-transition {
+    0% {
+        fill: var(--white);
+    }
+    50% {
+        fill: var(--bright);
+    }
+    100% {
+        fill: var(--white);
+    }
+}
+
+@keyframes loading-color-transition-spin-out {
+    0% {
+        fill: var(--white);
+    }
+    50% {
+        fill: var(--bright);
+        transform: rotate(0deg);
+    }
+    100% {
+        fill: var(--white);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading-color-transition-spin-in {
+    0% {
+        fill: var(--white);
+        transform: rotate(0deg);
+    }
+    50% {
+        fill: var(--bright);
+    }
+    80% {
+        transform: rotate(360deg);
+    }
+    100% {
+        fill: var(--white);
+    }
+}
