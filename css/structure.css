@@ -24,7 +24,7 @@ hr {
 }
 
 #index-background {
-    background-image: url("/bilder/hintergrundbildcss.webp");
+    background-image: url("/bilder/web-g066a55977_1920.jpg");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,25 +82,19 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 .main-container-box1 {
     box-sizing: border-box;
-    padding-left: 2rem;
 }
 
 .main-container-box2 {
     box-sizing: border-box;
-    padding-left: 3rem;
-}
-.dimmed {
-    background-color: var(--dimmed);
-    padding: 1rem;
 }
 
 .h {
     box-sizing: border-box;
-    width: 100%;
     height: 3px;
     background-color: var(--darkest);
 }
@@ -126,6 +120,15 @@ hr {
 
 .text-paragraph {
     margin-bottom: 1.2rem;
+}
+
+.dimmed {
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+#var-list {
+    padding: 1.5rem;
 }
 
 /* .overview-list-item {
