@@ -67,6 +67,8 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
+    max-width: 57rem;
     margin-top: 2rem;
 }
 
@@ -123,7 +125,6 @@ hr {
 }
 
 .text-paragraph {
-    max-width: 24rem;
     margin-bottom: 1.2rem;
 }
 
