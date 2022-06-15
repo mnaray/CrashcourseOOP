@@ -12,6 +12,7 @@
     --brightest: rgb(174, 251, 255);
     --white: rgb(255, 255, 255);
     --dimmed: rgb(0, 0, 0, 0.2);
+    --dimmed-bright: rgba(255, 255, 255, 0.5);
     --exclamation: rgb(255, 36, 36);
 
     /* URL */

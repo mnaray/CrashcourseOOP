@@ -65,6 +65,9 @@ h3 {
     background-color: var(--darkest);
 }
 
-.text-paragraph {
-    color: var(--white);
+.dimmed {
+    background-color: var(--dimmed-bright);
+    padding: 1rem;
+    border: 0.2rem solid var(--dark);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
