@@ -218,3 +218,17 @@ hr {
     height: 100%;
     line-height: 2.5rem;
 }
+
+.loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.loading svg {
+    height: 3rem;
+    width: 5rem;
+    overflow: hidden;
+}
