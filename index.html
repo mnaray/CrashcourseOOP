@@ -11,6 +11,25 @@
         <link rel="stylesheet" href="/css/media_queries.css" />
         <link rel="stylesheet" href="/css/debugging-colors.css" />
         <link rel="stylesheet" href="/css/global.css" />
+        <script>
+            if (
+                !sessionStorage.getItem("_swa") &&
+                document.referrer.indexOf(
+                    location.protocol + "//" + location.host
+                ) !== 0
+            ) {
+                fetch(
+                    "https://counter.dev/track?" +
+                        new URLSearchParams({
+                            referrer: document.referrer,
+                            screen: screen.width + "x" + screen.height,
+                            user: "mnaray",
+                            utcoffset: "2",
+                        })
+                );
+            }
+            sessionStorage.setItem("_swa", "1");
+        </script>
     </head>
     <div class="master-container">
         <body>
@@ -48,28 +67,66 @@
                 </nav>
             </header>
             <main class="main-container">
-                Lorem ipsum say wassup dolor sit amet, consectetur adipisicing elit.
-                Aspernatur reprehenderit distinctio a quia cumque, earum aliquid
-                at unde repellendus laboriosam atque animi vel maiores dolorum
-                consectetur ullam rem facilis praesentium. Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Aspernatur reprehenderit
-                distinctio a quia cumque, earum aliquid at unde repellendus
-                laboriosam atque animi vel maiores dolorum consectetur ullam rem
-                facilis praesentium. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Aspernatur reprehenderit distinctio a quia
-                cumque, earum aliquid at unde repellendus laboriosam atque animi
-                vel maiores dolorum consectetur ullam rem facilis praesentium.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur reprehenderit distinctio a quia cumque, earum aliquid
-                at unde repellendus laboriosam atque animi vel maiores dolorum
-                consectetur ullam rem facilis praesentium. Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Aspernatur reprehenderit
-                distinctio a quia cumque, earum aliquid at unde repellendus
-                laboriosam atque animi vel maiores dolorum consectetur ullam rem
-                facilis praesentium. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Aspernatur reprehenderit distinctio a quia
-                cumque, earum aliquid at unde repellendus laboriosam atque animi
-                vel maiores dolorum consectetur ullam rem facilis praesentium.
+                <div class="main-container-box1">
+                    <div class="main-container-Title"><h2>Title</h2></div>
+                    Lorem ipsum say wassup dolor sit amet, consectetur
+                    adipisicing elit. Aspernatur reprehenderit distinctio a quia
+                    cumque, earum aliquid at unde repellendus laboriosam atque
+                    animi vel maiores dolorum consectetur ullam rem facilis
+                    praesentium. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Aspernatur reprehenderit distinctio a quia
+                    cumque, earum aliquid at unde repellendus laboriosam atque
+                    animi vel maiores dolorum consectetur ullam rem facilis
+                    praesentium. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Aspernatur reprehenderit distinctio a quia
+                    cumque, earum aliquid at unde repellendus laboriosam atque
+                    animi vel maiores dolorum consectetur ullam rem facilis
+                    praesentium. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Aspernatur reprehenderit distinctio a quia
+                    cumque, earum aliquid at unde repellendus laboriosam atque
+                    animi vel maiores dolorum consectetur ullam rem facilis
+                    praesentium. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Aspernatur reprehenderit distinctio a quia
+                    cumque, earum aliquid at unde repellendus laboriosam atque
+                    animi vel maiores dolorum consectetur ullam rem facilis
+                    praesentium. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Aspernatur reprehenderit distinctio a quia
+                    cumque, earum aliquid at unde repellendus laboriosam atque
+                    animi vel maiores dolorum consectetur ullam rem facilis
+                    praesentium.
+                </div>
+                <div class="main-container-box2"></div>
+                <div class="main-container-Title"><h2>Title</h2></div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati delectus magnam earum praesentium accusantium ducimus
+                cum est, sint suscipit eius, nulla ipsam enim natus. Explicabo
+                dignissimos atque culpa magni recusandae!Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Obcaecati delectus magnam
+                earum praesentium accusantium ducimus cum est, sint suscipit
+                eius, nulla ipsam enim natus. Explicabo dignissimos atque culpa
+                magni recusandae!Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Obcaecati delectus magnam earum praesentium
+                accusantium ducimus cum est, sint suscipit eius, nulla ipsam
+                enim natuExplicabo dignissimos atque culpa magni
+                recusandae!Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit.Obcaecati delectus magnam earum praesentium accusantium
+                ducimus cum est, sint suscipit eius, nulla ipsam enim natus.
+                Explicabo dignissimos atque culpa magni recusandae!Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Obcaecati delectus
+                magnam earum praesentium accusantium ducimus cum est, sint
+                suscipit eius, nulla ipsam enim natus. Explicabo dignissimos
+                atque culpa magni recusandae!Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Obcaecati delectus magnam earum
+                praesentium accusantium ducimus cum est, sint suscipit eius,
+                nulla ipsam enim natus. Explicabo dignissimos atque culpa magni
+                recusandae!Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Obcaecati delectus magnam earum praesentium accusantium
+                ducimus cum est, sint suscipit eius, nulla ipsam enim natus.
+                Explicabo dignissimos atque culpa magni recusandae!Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Obcaecati delectus
+                magnam earum praesentium accusantium ducimus cum est, sint
+                suscipit eius, nulla ipsam enim natus. Explicabo dignissimos
+                atque culpa magni recusandae!
             </main>
             <footer class="footer-container">
                 <ul class="footer-list">

@@ -1,16 +1,36 @@
+hr {
+    border: none;
+    height: 0.07rem;
+    background-color: var(--bright);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--darkest);
+    text-shadow: 0.1rem 0.1rem var(--dimmed);
+}
+
 .master-container {
-    background-color: var(--brightest);
+    background-color: var(--white);
 }
 
 .header-container {
     border: 0.2rem solid var(--dark);
     border-top: none;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
-    background-color: var(--medium);
+    background-color: var(--darkest);
 }
 
 .logo {
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.thema-container {
+    border-left: 0.2rem solid var(--dark);
+    /* border-top: 0.2rem solid var(--dark); */
+    /* border-radius: 0.4rem 0rem 0rem 0rem; */
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 .form-container {
@@ -35,12 +55,12 @@
 .footer-item {
     border: 0.2rem solid var(--dark);
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-    background-color: var(--darkest);
+    background-color: var(--dark);
 }
 
 .footer-list {
     border: 0.2rem solid var(--dark);
     border-bottom: none;
     border-radius: 0.5rem 0.5rem 0rem 0rem;
-    background-color: var(--medium);
+    background-color: var(--darkest);
 }
