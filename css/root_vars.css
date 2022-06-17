@@ -12,5 +12,9 @@
     --brightest: rgb(174, 251, 255);
     --white: rgb(255, 255, 255);
     --dimmed: rgb(0, 0, 0, 0.2);
+    --dimmed-bright: rgba(255, 255, 255, 0.7);
     --exclamation: rgb(255, 36, 36);
+
+    /* URL */
+    --hintergrundbild: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fsoject.com%2Fwp-content%2Fuploads%2F2020%2F12%2FWhatsApp-Image-2020-12-27-at-00.35.35-2.jpeg&imgrefurl=https%3A%2F%2Fsoject.com%2Fwhat-is-object-orient-programming%2F&tbnid=jGx_Kw1WtXpKaM&vet=12ahUKEwjI_Lmd8674AhUDKewKHWwXAVIQMyhQegQIARBh..i&docid=TmdQY6viFayhSM&w=800&h=480&q=oop&ved=2ahUKEwjI_Lmd8674AhUDKewKHWwXAVIQMyhQegQIARBh ");
 }

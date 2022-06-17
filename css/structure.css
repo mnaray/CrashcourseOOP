@@ -23,6 +23,14 @@ hr {
     padding-bottom: 0rem;
 }
 
+#index-background {
+    background-image: url("/bilder/web-g066a55977_1920.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .header-container {
     box-sizing: border-box;
     display: flex;
@@ -69,6 +77,28 @@ hr {
     margin-bottom: 0.5rem;
 }
 
+.main-container-box1,
+.main-container-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.main-container-box1 {
+    box-sizing: border-box;
+}
+
+.main-container-box2 {
+    box-sizing: border-box;
+}
+
+.h {
+    box-sizing: border-box;
+    height: 3px;
+    background-color: var(--darkest);
+}
+
 .thema-container {
     box-sizing: border-box;
     padding-top: 0.2rem;
@@ -90,6 +120,15 @@ hr {
 
 .text-paragraph {
     margin-bottom: 1.2rem;
+}
+
+.dimmed {
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+#var-list {
+    padding: 1.5rem;
 }
 
 /* .overview-list-item {
@@ -178,4 +217,17 @@ hr {
 .link-box {
     height: 100%;
     line-height: 2.5rem;
+}
+
+.loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.loading svg {
+    height: auto;
+    width: auto;
 }

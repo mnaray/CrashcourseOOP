@@ -64,3 +64,13 @@ h3 {
     border-radius: 0.5rem 0.5rem 0rem 0rem;
     background-color: var(--darkest);
 }
+
+.dimmed {
+    background-color: var(--dimmed-bright);
+    border: 0.2rem solid var(--dark);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.loading svg {
+    fill: var(--white);
+}
